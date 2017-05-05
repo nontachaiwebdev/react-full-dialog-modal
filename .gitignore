@@ -80,5 +80,5 @@ typings/
 .env
 
 .DS_Store
-.swp
+*.swp
 # End of https://www.gitignore.io/api/node
