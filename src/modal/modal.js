@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './modal.css'
-class App extends Component {
+class Modal extends Component {
   render() {
+    const { showModal } = this.props
+    const showCss = showModal ? { 'top' : '0%' } : { 'top':'100%' }
     return (
-      <div className={`bodywindow`}>
-        <p>start component</p>        
-        <button>Show Dialog</button>
+      <div className={`modalwindow`} style={showCss} >
+        Dialog modal Show!!!
       </div>
     )
   }
 }
 
-export default App;
+export default Modal;
