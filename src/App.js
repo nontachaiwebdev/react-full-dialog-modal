@@ -19,8 +19,10 @@ class App extends Component {
     const { showModal } = this.state
     return (
       <div>
-        <p>start component</p>        
-        <button onClick={ this.pressButton } >Show Dialog</button>
+        <p>start component</p>   
+	<button onClick={ this.pressButton } >Show Dialog</button>
+	<p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p><p>This is Modal</p>
+	<button onClick={ this.pressButton } >Show Dialog</button>
         <Modal showModal={ showModal } >
 	  <p>This is Modal</p>
 	  <button onClick={ this.closeModal } >Close Dialog</button>

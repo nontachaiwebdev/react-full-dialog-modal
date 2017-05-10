@@ -1,5 +1,5 @@
 .modalwindow{
-  position: absolute;
+  position: fixed;
   top:-100%;
   width: 100%;
   height: 100vh;
